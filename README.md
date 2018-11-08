@@ -1,4 +1,14 @@
-### 么见过的一些东西
+### flutter的布局和widgets
+column
+row
+center
+container
+Matrix4
+MaterialApp
+
+
+
+么见过的一些东西
 runApp
 MaterialApp
 BuildContext
