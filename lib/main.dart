@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_layout/materialapp/materialapp.dart';
 import 'dart:math';
 import 'package:flutter/cupertino.dart';
-import 'routers/index.dart';
+import 'routers/index.dart' show getRouters;
 
 void main() => runApp(new MyApp());
 

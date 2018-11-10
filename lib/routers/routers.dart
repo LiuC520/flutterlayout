@@ -31,7 +31,7 @@ import 'package:flutter_layout/container/constraints.dart';
 /**
  * 路由的名字
  */
-var routerNames = [
+List<String> routerNames = [
   'column',
   'row',
   'center',
@@ -47,7 +47,7 @@ var routerNames = [
 /**
  * 路由中文
  */
-var routerNamesCN = [
+List<String> routerNamesCN = [
   '垂直布局',
   '水平布局',
   '居中布局',
