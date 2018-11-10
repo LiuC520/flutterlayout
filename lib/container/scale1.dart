@@ -9,7 +9,7 @@ class Scale1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("AppBar"),
+          title: Text("缩放"),
         ),
         body: new Column(children: <Widget>[
           Row(

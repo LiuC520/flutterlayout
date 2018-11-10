@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+// import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 
 class Column1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("AppBar"),
+        title: Text("垂直布局"),
       ),
       body: new Container(
         width: 375,
@@ -35,6 +36,9 @@ class Column1 extends StatelessWidget {
               height: 30,
               width: 30,
             ),
+            // WebviewScaffold(
+            //   url: "https://www.baidu.com",
+            // ),
           ],
         ),
       ),

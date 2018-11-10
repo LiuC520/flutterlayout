@@ -4,7 +4,7 @@ import 'dart:ui';
 /**
  * 这是scale缩放用矩阵来表示
  */
-class Scale1 extends StatelessWidget {
+class Scale2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

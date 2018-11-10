@@ -6,7 +6,7 @@ class Row1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("AppBar"),
+        title: Text("水平布局"),
       ),
       body: new Container(
         width: 375,

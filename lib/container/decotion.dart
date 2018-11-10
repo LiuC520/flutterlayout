@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'dart:ui';
 
-class Container1 extends StatelessWidget {
+class Decaration1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

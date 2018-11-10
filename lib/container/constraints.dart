@@ -5,7 +5,7 @@ import 'dart:ui';
 /**
  * constraints约束
  */
-class Container1 extends StatelessWidget {
+class Constraints1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -7,7 +7,7 @@ class Container1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("AppBar"),
+          title: Text("容器"),
         ),
         body: new Column(children: <Widget>[
           Row(

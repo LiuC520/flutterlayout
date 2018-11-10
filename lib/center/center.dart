@@ -6,7 +6,7 @@ class Center1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("AppBar"),
+        title: Text("居中布局"),
       ),
       body: new Container(
         width: 375,

@@ -4,23 +4,13 @@
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_layout/container/transform.dart';
-import 'package:flutter_layout/container/scale1.dart';
-import 'package:flutter_layout/container/rotation.dart';
-import 'package:flutter_layout/theme/theme.dart';
 import 'package:flutter_layout/materialapp/materialapp.dart';
 import 'dart:math';
-import 'home.dart';
 import 'package:flutter/cupertino.dart';
+import 'routers/index.dart';
 
 void main() => runApp(new MyApp());
 
-final routes = {
-  '/Transform1': (BuildContext context) => new Transform1(),
-  '/Scale1': (BuildContext context) => new Scale1(),
-  '/Rotation1': (BuildContext context) => new Rotation1(),
-  '/': (BuildContext context) => new Home(),
-};
 Random a = Random(10);
 
 class MyApp extends StatelessWidget {
@@ -59,11 +49,11 @@ class MyApp extends StatelessWidget {
        * 3、如果上面两个都没有，或者路由赵达不到，如果有 onGenerateRoute，就会进入生成的路由
        * 4、如果连上面的生成路由也没有，就会走到onUnknownRoute，不明所以的路由，比如网络连接失败，可以进入断网的页面
        */
-      home: Theme1(),
+      // home: Stack1(),
       /**
      * routes是一个对象，键是字符串，值是widgetbuilder，也就是widget
      */
-      // routes: routes,
+      routes: getRouters(),
       // initialRoute: '/',
       // onUnknownRoute: (context) => ,
       /**
