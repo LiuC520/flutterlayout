@@ -13,6 +13,8 @@ import 'package:flutter_layout/container/rotation.dart';
 import 'package:flutter_layout/container/outer.dart';
 import 'package:flutter_layout/container/decotion.dart';
 import 'package:flutter_layout/container/constraints.dart';
+import 'package:flutter_layout/material/about.dart';
+import 'package:flutter_layout/material/animated_icons.dart';
 
 // final routerNames = ['row--水平布局', 'transform', 'scale', 'rotation'];
 
@@ -43,6 +45,8 @@ List<String> routerNames = [
   'outer',
   'decoration',
   'constraints',
+  'about',
+  'animatedicons',
 ];
 /**
  * 路由中文
@@ -59,6 +63,8 @@ List<String> routerNamesCN = [
   '矩阵变换--扭曲等',
   '装饰样式',
   '约束',
+  'About',
+  '动画icon'
 ];
 /**
  * 路由的widget
@@ -74,7 +80,9 @@ var widgets = [
   new Rotation1(),
   new Outer1(),
   new Decaration1(),
-  new Constraints1()
+  new Constraints1(),
+  new About(),
+  new AnimatedIcons1(),
 ];
 
 /**

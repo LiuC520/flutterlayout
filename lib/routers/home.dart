@@ -5,7 +5,6 @@ import 'routers.dart' show routerNames, routerNamesCN;
 class Home extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
     return HomeState();
   }
 }
