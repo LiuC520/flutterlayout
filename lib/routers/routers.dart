@@ -16,6 +16,7 @@ import 'package:flutter_layout/container/constraints.dart';
 import 'package:flutter_layout/material/about.dart';
 import 'package:flutter_layout/material/animated_icons.dart';
 import 'package:flutter_layout/material/appbar.dart';
+import 'package:flutter_layout/material/SliverAppBar.dart';
 
 // final routerNames = ['row--水平布局', 'transform', 'scale', 'rotation'];
 
@@ -49,6 +50,7 @@ List<String> routerNames = [
   'about',
   'animatedicons',
   'appbar',
+  'SliverAppBar',
 ];
 /**
  * 路由中文
@@ -67,7 +69,8 @@ List<String> routerNamesCN = [
   '约束',
   'about对话框',
   '动画icon',
-  'appbar'
+  'appbar',
+  '导航栏随内容滚动',
 ];
 /**
  * 路由的widget
@@ -87,6 +90,7 @@ var widgets = [
   new About(),
   new AnimatedIcons1(),
   new AppBar1(),
+  new SliverAppBar1()
 ];
 
 /**
